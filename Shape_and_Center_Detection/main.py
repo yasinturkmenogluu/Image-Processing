@@ -24,6 +24,7 @@ thresh = cv2.threshold(blurred, 60, 255, cv2.THRESH_BINARY)[1]
 contour = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 # make it suitable for all opencv versions
 contour = imutils.grab_contours(contour)
+
 for i in contour:
     # get moments of contours to find center
     M = cv2.moments(i)
