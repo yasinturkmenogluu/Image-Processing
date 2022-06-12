@@ -1,8 +1,15 @@
 import cv2
 import imutils
+import argparse
+
+# construct the argument parse and parse the arguments
+ap = argparse.ArgumentParser()
+ap.add_argument("-i", "--input", required=True,
+	help="name of the image")
+args = vars(ap.parse_args())
 
 # read the image
-image = cv2.imread("im_shape.png")
+image = cv2.imread(args["input"])
 # resize the image
 resized = imutils.resize(image, width=300)
 # calculate ratio value
