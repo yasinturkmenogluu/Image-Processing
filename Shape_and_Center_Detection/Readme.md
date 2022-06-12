@@ -5,7 +5,7 @@ In this project we detect different shapes and their center points using OpenCV 
 
 ## 2. Dependencies
 Python3
-opencv-python==4.5.4.60
+opencv-python
 imutils
 
 ## 6. How to run?
