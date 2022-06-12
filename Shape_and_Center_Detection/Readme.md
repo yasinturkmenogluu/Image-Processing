@@ -7,6 +7,7 @@ In this project we detect different shapes and their center points using OpenCV 
 Python3
 opencv-python
 imutils
+argparse
 
 ## 6. How to run?
 `$ python main.py` <br/>
