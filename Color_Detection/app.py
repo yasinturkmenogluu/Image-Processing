@@ -58,7 +58,7 @@ while True:
                     cv2.circle(frame, center, 7, (0, 0, 255), -1)
                     cv2.putText(frame, key, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 0.7, colors[key])
 
-   # cv2.imshow('Maske', mask)
+   # cv2.imshow('Masked image', mask)
     cv2.imshow('frame', frame)
 
     if  cv2.waitKey(1) & 0xFF == ord('q'):
