@@ -17,9 +17,9 @@ while True:
     hsv = cv2.cvtColor(blurred_frame, cv2.COLOR_BGR2HSV)
     
     # Set color
-    colors = {"Turuncu": (255,255,255)}
-    lower = {"Turuncu": (5,105,105)}
-    upper = {"Turuncu": (15,255,255)}
+    colors = {"Orange": (255,255,255)}
+    lower = {"Orange": (5,105,105)}
+    upper = {"Orange": (15,255,255)}
 
     for key, value in upper.items():
         # create a kernel
