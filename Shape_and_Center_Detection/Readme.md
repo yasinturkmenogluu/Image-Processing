@@ -10,4 +10,4 @@ imutils
 argparse
 
 ## 6. How to run?
-`$ python main.py` <br/>
+`$ python main.py --input {image path}` <br/>
